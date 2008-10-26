@@ -1,0 +1,6 @@
+Classloader which instruments loaded classes for example to remove final modifiers.
+It may be useful if for example some classes cannot be changed is used in current code.
+Without final modifiers it becomes possible to stub these classes and write unit test
+for the code you work on.
+
+See org.definilizer.ClassLoaderForTesting for info on how it can be used.

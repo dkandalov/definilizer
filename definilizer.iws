@@ -54,10 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassLoaderForTesting.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClassLoaderForTesting.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/ClassLoaderForTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.7037594">
+            <state line="24" column="34" selection-start="620" selection-end="641" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="docComment;class#ClassLoaderForTesting#0" expanded="true" />
                 <element signature="docComment;field#CLASSES_TO_INSTRUMENT#0;class#ClassLoaderForTesting#0" expanded="true" />
@@ -72,6 +72,15 @@
                 <element signature="method#readClassAsBytes#0;class#ClassLoaderForTesting#0" expanded="true" />
                 <element signature="method#convertClassNameToFileName#0;class#ClassLoaderForTesting#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="72" selection-start="357" selection-end="357" vertical-scroll-proportion="0.13235295">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -490,13 +499,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/FinalDataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.13300492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jdk1.6.0/src.zip!/java/net/URLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -631,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/ClassLoaderForTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.7037594">
+        <state line="24" column="34" selection-start="620" selection-end="641" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="docComment;class#ClassLoaderForTesting#0" expanded="true" />
             <element signature="docComment;field#CLASSES_TO_INSTRUMENT#0;class#ClassLoaderForTesting#0" expanded="true" />
@@ -646,6 +648,13 @@
             <element signature="method#readClassAsBytes#0;class#ClassLoaderForTesting#0" expanded="true" />
             <element signature="method#convertClassNameToFileName#0;class#ClassLoaderForTesting#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="72" selection-start="357" selection-end="357" vertical-scroll-proportion="0.13235295">
+          <folding />
         </state>
       </provider>
     </entry>
