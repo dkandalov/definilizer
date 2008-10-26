@@ -28,8 +28,8 @@ public class ClassLoaderForTesting extends ClassLoader {
      * If you want some class to be instrumented, you need to add it to this list.
      */
     private static final List<String> CLASSES_TO_INSTRUMENT = Arrays.asList(
-            "org.lib.FinalDataProcessor",
-            "org.lib.FinalStaticDataProcessor"
+            "org.definilizer.lib.FinalDataProcessor",
+            "org.definilizer.lib.FinalStaticDataProcessor"
     );
     private static final String[] PACKAGES_NOT_TO_LOAD = {
             "java.", "javax.", "sun."
@@ -49,11 +49,11 @@ public class ClassLoaderForTesting extends ClassLoader {
             throws ClassNotFoundException {
         // We cannot load just those classes we want to instrument, because junit will load them
         // using classloader with which it was loaded itself. Therefore, we need to load junit classes
-        // and everything it depends on; it case of using IDE it should also be GUI runner.
-        // Since junit uses classes with various package names and IDE plugins may be very different,
-        // it would be better to load as much classes as possible.
+        // and everything it depends on; in case of using IDE GUI runner should also be loaded.
+        // Since junit uses classes with various package names and IDE plugins are different,
+        // it is be simpler to load as much classes as possible.
         //
-        // On the other hand, if we load all classes including java.lang.* classes, JVM fails.
+        // On the other hand, if all classes including java.lang.* are loaded, then JVM fails.
         // Because of it after some experimentation, I added separation between classes we should load
         // and those which should be loaded by original system classloader.
 

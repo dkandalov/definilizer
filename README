@@ -1,6 +1,10 @@
 Classloader which instruments loaded classes for example to remove final modifiers.
+The idea is that you use custom classloader as a system classloader.
+To do it you should set java.system.class.loader property like this:
+    -Djava.system.class.loader=org.definilizer.ClassLoaderForTesting
+
 It may be useful if for example some classes cannot be changed is used in current code.
 Without final modifiers it becomes possible to stub these classes and write unit test
-for the code you work on.
+for the code you work on. See org.definilizer.SingletonRemoving_Test for example.
 
-See org.definilizer.ClassLoaderForTesting for info on how it can be used.
+This is source code for this post http://codingmatters.blogspot.com/2008/09/getting-rid-of-dependcies-part-2.html.
