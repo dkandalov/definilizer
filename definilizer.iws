@@ -57,17 +57,21 @@
       <file leaf-file-name="ClassLoaderForTesting.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/ClassLoaderForTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="23" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.652568">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoaderForTesting_Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/ClassLoaderForTesting_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="36" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.7037594">
+              <folding>
+                <element signature="docComment;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="docComment;field#CLASSES_TO_INSTRUMENT#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="docComment;method#ClassLoaderForTesting#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#ClassLoaderForTesting#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#loadClass#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#loadClassWithOriginalClassLoader#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#loadClassSkippingParentClassloader#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#shouldBeInstrumented#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#instrumentClassStructure#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#isClassWeShouldNotLoad#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#readClassAsBytes#0;class#ClassLoaderForTesting#0" expanded="true" />
+                <element signature="method#convertClassNameToFileName#0;class#ClassLoaderForTesting#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,62 +79,18 @@
       <file leaf-file-name="SingletonRemovingTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/SingletonRemovingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticInitRemover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/StaticInitRemover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FinalRemover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/FinalRemover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticInitSearchingStateMachine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/StaticInitSearchingStateMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataMunger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DataMunger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DataProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#SingletonRemovingTest#0" expanded="true" />
+                <element signature="method#shouldSubstituteInterfaceBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+                <element signature="class#476:619" expanded="true" />
+                <element signature="method#munge#0;class#476:619" expanded="true" />
+                <element signature="method#setPrivateField#0;class#SingletonRemovingTest#0" expanded="true" />
+                <element signature="method#shouldSubstituteClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+                <element signature="method#shouldSubstituteFinalClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+                <element signature="method#shouldSubstituteFinalStaticClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +133,19 @@
           <option name="myItemId" value="definilizer" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
+      </PATH>
+      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -186,6 +156,52 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="definilizer" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="definilizer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="definilizer" />
@@ -216,37 +232,14 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.org in definilizer">
-    <tempConfiguration default="false" name="org in definilizer" type="JUnit" factoryName="JUnit" enabled="false" merge="false" runner="emma">
-      <module name="definilizer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </tempConfiguration>
+  <component name="RunManager" selected="JUnit.all tests">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <module name="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -331,8 +324,38 @@
       </option>
       <envs />
     </configuration>
+    <configuration default="false" name="all tests" type="JUnit" factoryName="JUnit" enabled="false" merge="false" sample_coverage="true" runner="emma">
+      <module name="definilizer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="org" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-Djava.system.class.loader=org.definilizer.ClassLoaderForTesting" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43878" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.org in definilizer" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.all tests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -377,25 +400,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-25" width="1290" height="830" extended-state="7" />
-    <editor active="false" />
+    <frame x="-5" y="-25" width="1290" height="830" extended-state="5" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="25" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36057693" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3865415" sideWeight="0.5" order="6" side_tool="false" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38613862" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Slice" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35416666" sideWeight="0.5" order="10" side_tool="false" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3536068" sideWeight="0.5" order="10" side_tool="false" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4070513" sideWeight="0.5" order="12" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918832" sideWeight="0.5" order="2" side_tool="false" x="125" y="32" width="475" height="768" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24776605" sideWeight="0.61244696" order="13" side_tool="false" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2298944" sideWeight="0.61244696" order="0" side_tool="false" x="557" y="31" width="467" height="768" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2298944" sideWeight="0.6039604" order="0" side_tool="false" x="557" y="31" width="467" height="768" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906102" sideWeight="0.5" order="8" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37820512" sideWeight="0.5" order="4" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37765205" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Workspaces" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" />
@@ -469,125 +492,160 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/FinalDataProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.13300492">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/FinalStaticDataProcessor.java">
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/net/URLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DefaultDataMunger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.027190333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DBUtils.java">
+    <entry file="jar:///opt/jdk1.6.0/jre/lib/rt.jar!/sun/net/www/protocol/file/FileURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/io/FilterInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="991" selection-end="991" vertical-scroll-proportion="0.7064364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/asm/asm/2.2.2/asm-2.2.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.10876133">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1131093680000" expanded="false" signature="0:1659" placeholder="/.../" />
-            <marker date="1131093680000" expanded="false" signature="1688:2059" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="2097:3102" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="3268:3626" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="3683:4257" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="4329:4598" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="4673:4778" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="4825:5572" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="5698:6977" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="7123:8187" placeholder="/**...*/" />
-            <marker date="1131093680000" expanded="false" signature="8342:8546" placeholder="/**...*/" />
+            <element signature="method#FilterInputStream#0;class#FilterInputStream#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="11" selection-start="5593" selection-end="5593" vertical-scroll-proportion="0.33235294">
+          <folding>
+            <element signature="method#BufferedInputStream#0;class#BufferedInputStream#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;method#readFully#1;class#DataInputStream#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="4" selection-start="5595" selection-end="5595" vertical-scroll-proportion="0.18529412">
+          <folding>
+            <element signature="docComment;method#read#1;class#BufferedReader#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/lang/ClassNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1182" column="42" selection-start="41628" selection-end="41628" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#getResource#0;class#ClassLoader#0" expanded="true" />
+            <element signature="method#getSystemResource#0;class#ClassLoader#0" expanded="true" />
+            <element signature="method#getBootstrapResource#0;class#ClassLoader#0" expanded="true" />
+            <element signature="method#getResourceAsStream#0;class#ClassLoader#0" expanded="true" />
+            <element signature="docComment;method#getSystemResourceAsStream#0;class#ClassLoader#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="917" column="17" selection-start="33551" selection-end="33551" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#getPath#0;class#URL#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.6.0/src.zip!/java/net/URI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="576" column="11" selection-start="26413" selection-end="26413" vertical-scroll-proportion="-50.36">
+          <folding>
+            <element signature="docComment;method#URI#1;class#URI#0" expanded="true" />
+            <element signature="docComment;method#URI#2;class#URI#0" expanded="true" />
+            <element signature="docComment;method#URI#3;class#URI#0" expanded="true" />
+            <element signature="docComment;method#URI#4;class#URI#0" expanded="true" />
+            <element signature="docComment;method#parseServerAuthority#0;class#URI#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/ClassLoaderForTesting_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="14" column="22" selection-start="394" selection-end="394" vertical-scroll-proportion="0.24360903">
+          <folding>
+            <element signature="method#shouldLoadClassesFromClasspath#0;class#ClassLoaderForTesting_Test#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.07941177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/SingletonRemovingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/StaticInitRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/FinalRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/asm/StaticInitSearchingStateMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DataMunger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lib/DataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="15" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#SingletonRemovingTest#0" expanded="true" />
+            <element signature="method#shouldSubstituteInterfaceBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+            <element signature="class#476:619" expanded="true" />
+            <element signature="method#munge#0;class#476:619" expanded="true" />
+            <element signature="method#setPrivateField#0;class#SingletonRemovingTest#0" expanded="true" />
+            <element signature="method#shouldSubstituteClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+            <element signature="method#shouldSubstituteFinalClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+            <element signature="method#shouldSubstituteFinalStaticClassBasedSingleton#0;class#SingletonRemovingTest#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/definilizer/ClassLoaderForTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="23" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.652568">
-          <folding />
+        <state line="36" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.7037594">
+          <folding>
+            <element signature="docComment;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="docComment;field#CLASSES_TO_INSTRUMENT#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="docComment;method#ClassLoaderForTesting#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#ClassLoaderForTesting#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#loadClass#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#loadClassWithOriginalClassLoader#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#loadClassSkippingParentClassloader#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#shouldBeInstrumented#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#instrumentClassStructure#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#isClassWeShouldNotLoad#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#readClassAsBytes#0;class#ClassLoaderForTesting#0" expanded="true" />
+            <element signature="method#convertClassNameToFileName#0;class#ClassLoaderForTesting#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
